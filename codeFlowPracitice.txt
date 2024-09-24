@@ -1,0 +1,39 @@
+// Original section
+let x = 3;
+let y = 5;
+
+x = y + 1; // line 3 Predict x = 6
+y = x - 1; // line 4 Predict y = 5
+x = y * 2; // line 5 Predict x = 10
+y = x / 2; // line 6 Predict y = 5
+
+// Predict the final values of x and y.
+Predict Final values x = 10 and y = 5
+
+// Additional section 1
+let a = 5;
+let b = 7;
+
+a = b + 2; // line 3 Predict a = 9
+b = 10;    // line 4 Predict b = 10
+a = a * b; // line 5 Predict a = 90
+b = b + a; // line 6 Predict b = 100
+
+// Predict the value of a...
+// ... after line 3 executes? Predict a = 9
+// ... after line 4 executes? Predict a = 9
+// ... after line 5 executes? Predict a = 90
+// ... after line 6 executes? Predict a = 90
+
+// Additional section 2
+let wish = "Good";                  		//line 1
+const farewell = wish + 'bye';			//line 2
+wish = "Hey";					//line 3
+let yellFarewell = farewell + '!';		//line 4
+let surprisedFarewell = "Wow! " + farewell; 	//line 5
+
+// What is the value of wish after line 1 executes? Predict wish = "Good"
+// What is the value of farewell after line 2 executes? Predict farewell = "Goodbye"
+// What is the value of wish after line 3 executes? Predict wish = "Hey"
+// What is the value of yellFarewell after line 4 executes? Predict yellFarewell = "Goodbye!"
+// What is the value of surprisedFarewell after line 5 executes? Predict surprisedFarewell = "Wow!Goodbye"
