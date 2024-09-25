@@ -36,4 +36,4 @@ let surprisedFarewell = "Wow! " + farewell; 	//line 5
 // What is the value of farewell after line 2 executes? Predict farewell = "Goodbye"
 // What is the value of wish after line 3 executes? Predict wish = "Hey"
 // What is the value of yellFarewell after line 4 executes? Predict yellFarewell = "Goodbye!"
-// What is the value of surprisedFarewell after line 5 executes? Predict surprisedFarewell = "Wow!Goodbye"
+// What is the value of surprisedFarewell after line 5 executes? Predict surprisedFarewell = "Wow! Goodbye"
